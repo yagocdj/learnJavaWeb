@@ -30,8 +30,8 @@ public class DAO {
             // getConnection -> obter os parametros de conexao
             con = DriverManager.getConnection(URL, USER, PASSWD);
             return con;
-        } catch (Exception e) {
-            System.out.println(e);
+        } catch (Exception error) {
+            System.out.println(error.getMessage());
             return null;
         }
     }

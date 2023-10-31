@@ -16,7 +16,7 @@
 <body>
     <main>
         <h1>Agenda de contatos</h1>
-        <a href="" class="botao1">Novo contato</a>
+        <a href="novo.jsp" class="botao1">Novo contato</a>
     </main>
 </body>
 </html>
