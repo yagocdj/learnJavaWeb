@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+    <servlet>
+        <servlet-name>UsuarioListar</servlet-name>
+        <servlet-class>usuario.controller.UsuarioListar</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>UsuarioVoltar</servlet-name>
+        <servlet-class>usuario.controller.UsuarioVoltar</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UsuarioListar</servlet-name>
+        <url-pattern>/UsuarioListar</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>UsuarioVoltar</servlet-name>
+        <url-pattern>/UsuarioVoltar</url-pattern>
+    </servlet-mapping>
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>
